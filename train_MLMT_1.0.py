@@ -198,8 +198,8 @@ def train_kitti():
                                                   max_boxes = RPN_max_Bbox)
 
 
-                X2_1, Y1_1, Y2_1, IouS_1 = roi_helpers.calc_iou(result_1, img_data, cfg, class_mapping)
-                X2_2, Y1_2, Y2_2, IouS_2 = roi_helpers.calc_iou(result_2, img_data, cfg, class_mapping)
+                X2_1, Y1_1, Y2_1, IouS_1 = roi_helpers.calc_iou(result_1, img_data, cfg, class_mapping, spect = 1)
+                X2_2, Y1_2, Y2_2, IouS_2 = roi_helpers.calc_iou(result_2, img_data, cfg, class_mapping, spect = 2)
 
 
                 if X2_1 is None:
