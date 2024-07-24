@@ -7,9 +7,18 @@ import copy
 
 
 
-def calc_iou(R, img_data, C, class_mapping):
+def calc_iou(R, img_data, C, class_mapping, spect=None):
 
-    bboxes = img_data['bboxes']
+    assert spect is not None
+
+    if spect == 1:
+        bboxes = img_data['bboxes']
+    elif spect == 2:
+        bboxes = img_data['bboxes_2']
+    else:
+        raise ValueError('Invalid spect value')
+
+
     (width, height) = (img_data['width'], img_data['height'])
 
     (resized_width, resized_height) = MLMT_data_generators.get_new_img_size(width, height, C.im_size)
