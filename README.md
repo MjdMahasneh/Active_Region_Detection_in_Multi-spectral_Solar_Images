@@ -11,7 +11,4 @@ Implementation of [Active Region Detection in Multi-spectral Solar Images](https
 **Full version (multi layer multi tasking object detection and segmentation based on multi-spectral (multi-layer) solar images)
 [MLMT-CNN - Object Detection and Segmentation in Multi-layer and Multi-spectral images](https://doi.org/10.1007/s00138-021-01261-y)**
 
-
-
-
-
+**dataset: https://zenodo.org/records/7950721**
