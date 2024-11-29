@@ -3,6 +3,9 @@
 This repository contains the implementation of the research work [Active Region Detection in Multi-spectral Solar Images](https://www.scitepress.org/Link.aspx?doi=10.5220/0010310504520459). 
 
 
+![Example Image](sample/framework.png)
+
+
 ## Features
 
 This repository implements:
