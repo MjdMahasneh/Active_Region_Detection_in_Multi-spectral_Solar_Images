@@ -24,8 +24,8 @@ To clone the repository and set up the environment, follow these steps:
 
 **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repository-url.git
-   cd your-repository-folder
+   git clone https://github.com/MjdMahasneh/Active_Region_Detection_in_Multi-spectral_Solar_Images.git
+   cd Active_Region_Detection_in_Multi-spectral_Solar_Images
    ```
 
 **Install Required Libraries: Install the dependencies listed below using pip:**
